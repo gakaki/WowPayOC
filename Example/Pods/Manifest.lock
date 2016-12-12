@@ -1,0 +1,27 @@
+PODS:
+  - Pingpp (2.2.10):
+    - Pingpp/Alipay (= 2.2.10)
+    - Pingpp/Core (= 2.2.10)
+    - Pingpp/UnionPay (= 2.2.10)
+  - Pingpp/Alipay (2.2.10):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.10)
+  - Pingpp/UnionPay (2.2.10):
+    - Pingpp/Core
+  - WowPayOC (0.1.0):
+    - Pingpp (~> 2.2.10)
+
+DEPENDENCIES:
+  - WowPayOC (from `../`)
+
+EXTERNAL SOURCES:
+  WowPayOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pingpp: a267566fbab76c4c3b65adb0655635b1d5ba7fdc
+  WowPayOC: f873bee924d7eaa896a743840ac16144984cde26
+
+PODFILE CHECKSUM: 2047c48b38f3db972919194aab6ade86bb53192a
+
+COCOAPODS: 1.2.0.beta.1

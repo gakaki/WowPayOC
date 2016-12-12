@@ -1,0 +1,32 @@
+{
+  "name": "WowPayOC",
+  "version": "0.1.0",
+  "summary": "A short description of WowPayOC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/WowPayOC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gakaki": "gakaki@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WowPayOC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WowPayOC/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "weak_frameworks": "UserNotifications",
+  "dependencies": {
+    "Pingpp": [
+      "~> 2.2.10"
+    ]
+  }
+}

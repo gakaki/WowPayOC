@@ -1,3 +1,5 @@
+platform :ios, '9.0'
+
 use_frameworks!
 
 target 'WowPayOC_Example' do
@@ -6,6 +8,6 @@ target 'WowPayOC_Example' do
   target 'WowPayOC_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
