@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WowPayOC_Example' do
+  pod 'WowPayOC', :path => '../'
+
+  target 'WowPayOC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
